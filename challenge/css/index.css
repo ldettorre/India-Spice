@@ -1,0 +1,24 @@
+body {
+    background-image: url(../assets/background.jpg);
+}
+
+
+
+.navbar-default  {
+    background-color:#ff8100;
+}
+
+.jumbotron {
+    padding:0;
+}
+
+.callout {
+     background-image: url(https://media.gqindia.com/wp-content/uploads/2015/04/wasabi-by-morimoto-at-the-taj-mahal-hotel-new-delhi_0.jpg);
+     height: 650px;
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+     width: auto;
+     color: white;
+    
+}
