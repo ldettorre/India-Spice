@@ -2,13 +2,25 @@ h1 {
     font-family: 'Kaushan Script', cursive;
 }
 
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font: 20px;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+}
+
 p {
     font-family: 'Cardo', serif;
     font-size: 16px
 }
 
 
-
+.aboutHead {
+    padding:20px;
+}
 
 body {
     background-image: url(../assets/background.jpg);
@@ -22,6 +34,14 @@ body {
 .navbar-default  {
     background-color:#ff8100;
 }
+
+
+.par1 {
+    padding-top: 90px;
+}
+
+
+
 /*
 .jumbotron {
     padding:0;
@@ -54,3 +74,6 @@ footer {
     animation: flash 5s;
 }
 
+.aboutimg {
+    border-radius: 5%;
+}
