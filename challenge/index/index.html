@@ -6,54 +6,124 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/reset.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/index.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
     
     <title>Document</title>
 </head>
+
+
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Indian Spice</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCol">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-left"><img src="../assets/logo.png" width="80px" height="80px"></a>
+      <a class="navbar-brand" href=""></a>
     </div>
-    <ul class="nav navbar-nav">
+    
+    
+    <div class="collapse navbar-collapse text-center" id="navCol">
+    <ul class="nav navbar-nav navbar-right">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Menu</a></li>
+      <li><a href="#">Services</a></li>
       <li><a href="#">Contact</a></li>
+      <li><a href="#" id="togo" class="btn btn-warning">IndianSpice ToGo</a><li></li>
     </ul>
+    </div>
   </div>
-</nav>
-
-    <div class="row">
-        <div class="col-md-12">
-            <section class="callout jumbotron text-center">
-    
-            </section>
-        </div>
-        
+</nav> 
+  
+  
+  
+  <div class="container carousel-main">
         <div class="row">
-            <div class="col-md-12 col-xs-12">
+            <div class="col-md-12">
+                
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="greyscale" src="https://i.pinimg.com/originals/44/af/69/44af69de4ad4552ab382cc2782dd78e8.jpg" alt="...">
+      <div class="carousel-caption">
+        Dish3
+      </div>
+    </div>
+    <div class="item">
+      <img class="sepia" src="https://www.mowglistreetfood.com/wp-content/uploads/2016/01/Mowgli-gallery_8.jpg" alt="...">
+      <div class="carousel-caption">
+       Dish2
+      </div>
+    </div>
+    
+    <div class="item">
+      <img class="blur" src="http://roshnis.co.uk/wp-content/uploads/2017/04/ros-1920x1080-roshnis-master-strokes.jpg" alt="...">
+      <div class="carousel-caption">
+        Dish1
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+   </div>
+        </div><br>
+        
+     
+        <div class="row text-center">
+            <div class="col-md-12">
                 <h1>Welcome</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ad ipsam distinctio sunt, accusamus voluptatum, blanditiis, tempore suscipit beatae voluptas consectetillum, ut. Pariatur nesciunt perferendis maxime ullam saepe minima ex at, rem. Omnis earum quas veritatis quia hic aperiam delectus facere quidem, tenetur magnam ipsa? Nam similique veritatis autem!</p>
-            </div>
-        </div>
-        
+            </div><br>
+    
+
+  <div class="container">
     <div class="row text-center">
-        <div class="col-md-4 col-xs-4">
-            <p>Live Music</p>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/bb/a6/83/live-indian-music-at.jpg" width="300px" height="200px">
-        </div>
-        <div class="col-md-4 col-xs-4">
-            <p>Moonlight Bar</p>
-            <img src="https://www.nightstay.in/task_manager/images/blogs/HQDCMSHDSV20170801172036_800x475.jpg" width="300px" height="200px">
-        </div>
-        <div class="col-md-4 col-xs-4">
-            <p>Reservations</p>
-            <img src="http://www.chennaispice.com/blog/wp-content/uploads/2017/02/qjhut1emxmi.jpg" width="300px" height="200px">
-            </div>
+      <div class="col-md-4">
+        <h1>Functions</h1>
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBq_HpBvUIlBp0YuMfP1V_ZMEisqGe4918ZfHreFzwIbub-guNsg" alt="function room" width="300px" height="200px">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quibusdam voluptate pariatur ducimus repellendus, maiores qui magni. Earum, non, facilis.
+        </p>
+      </div>
+      
+      <div class="col-md-4">
+        <h1>Music</h1>
+        <img src="https://i.ytimg.com/vi/BCpF7Uxid3s/maxresdefault.jpg" width="300px" height="200px">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, vitae, tempora! Error doloribus est ab quidem aliquid omnis voluptatum quibusdam.</p>
+   </div>
+   
+      <div class="col-md-4">
+        <h1>Reservations</h1>
+        <img src="https://i.ytimg.com/vi/8KYrdyA9je0/maxresdefault.jpg" width="300px" height="200px">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est odit similique eos quis impedit nobis. Quaerat veritatis unde consequatur facere!</p>
+      </div>
     </div>
-    </div>
-</body>
+  </div>
+ </body>
 </html>
