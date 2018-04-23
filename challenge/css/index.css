@@ -40,8 +40,10 @@ body {
     padding-top: 90px;
 }
 
-
-
+#navCol {
+    padding-top:15px;
+    padding-right:10px;
+}
 /*
 .jumbotron {
     padding:0;
